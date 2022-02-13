@@ -1,10 +1,10 @@
 import React from 'react';
 import './brand.css';
-import {google, sap,uipath, excel,atlassian, dropbox, slack, shopify} from './imports';
+import { sap,uipath, excel} from './imports';
 
 const Brand = () => {
     return (
-        <div className="gpt3__brand section__padding">
+        <div className="rpaAutomations__brand section__padding">
             <div>
                 <img src={uipath} alt="uipath" />
             </div>

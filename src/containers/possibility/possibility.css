@@ -1,11 +1,11 @@
-.gpt3__possibility {
+.rpaAutomations__possibility {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin: 0 5rem;
 }
 
-.gpt3__possibility-image {
+.rpaAutomations__possibility-image {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -13,12 +13,12 @@
     padding: 0 3rem 3rem 3rem;
 }
 
-.gpt3__possibility-image img {
+.rpaAutomations__possibility-image img {
     width: 100%;
     height: 100%;
 }
 
-.gpt3__possibility-content {
+.rpaAutomations__possibility-content {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@
     align-items: flex-start;
 }
 
-.gpt3__possibility-content__preheading {
+.rpaAutomations__possibility-content__preheading {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -35,7 +35,7 @@
     margin-bottom: 1rem;
 }
 
-.gpt3__possibility-content h1 {
+.rpaAutomations__possibility-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 34px;
@@ -43,7 +43,7 @@
     margin-bottom: 1.5rem;
 }
 
-.gpt3__possibility-content__text {
+.rpaAutomations__possibility-content__text {
     font-family: var(--font-family);
     font-size: 16px;
     line-height: 30px;
@@ -51,7 +51,7 @@
     margin-bottom: 2rem;
 }
 
-.gpt3__possibility-content__subtext {
+.rpaAutomations__possibility-content__subtext {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -61,44 +61,44 @@
 }
 
 @media screen and (max-width: 1160px) {
-    .gpt3__possibility-content__preheading {
+    .rpaAutomations__possibility-content__preheading {
         font-size: 14px;
         line-height: 24px;
     }
     
-    .gpt3__possibility-content h1 {
+    .rpaAutomations__possibility-content h1 {
         font-size: 28px;
         line-height: 38px;
     }
     
-    .gpt3__possibility-content__text {
+    .rpaAutomations__possibility-content__text {
         font-size: 14px;
         line-height: 24px;
     }
     
-    .gpt3__possibility-content__subtext {
+    .rpaAutomations__possibility-content__subtext {
         font-size: 14px;
         line-height: 24px;
     }
 }
 
 @media screen and (max-width: 990px) {
-    .gpt3__possibility-content__preheading {
+    .rpaAutomations__possibility-content__preheading {
         font-size: 12px;
         line-height: 20px;
     }
     
-    .gpt3__possibility-content h1 {
+    .rpaAutomations__possibility-content h1 {
         font-size: 24px;
         line-height: 32px;
     }
     
-    .gpt3__possibility-content__text {
+    .rpaAutomations__possibility-content__text {
         font-size: 12px;
         line-height: 20px;
     }
 
-    .gpt3__possibility-content__subtext {
+    .rpaAutomations__possibility-content__subtext {
         font-size: 12px;
         line-height: 20px;
         margin-bottom: 4rem;
@@ -106,57 +106,57 @@
 }
 
 @media screen and (max-width: 853px) {
-    .gpt3__possibility {
+    .rpaAutomations__possibility {
         flex-direction: column;
         align-content: flex-start;
     }
 
-    .gpt3__possibility-image {
+    .rpaAutomations__possibility-image {
         padding-left: 0;
     }
 
-    .gpt3__possibility-content__preheading {
+    .rpaAutomations__possibility-content__preheading {
         font-size: 14px;
         line-height: 24px;
     }
     
-    .gpt3__possibility-content h1 {
+    .rpaAutomations__possibility-content h1 {
         font-size: 28px;
         line-height: 38px;
     }
     
-    .gpt3__possibility-content__text {
+    .rpaAutomations__possibility-content__text {
         font-size: 14px;
         line-height: 24px;
     }
     
-    .gpt3__possibility-content__subtext {
+    .rpaAutomations__possibility-content__subtext {
         font-size: 14px;
         line-height: 24px;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .gpt3__possibility-image {
+    .rpaAutomations__possibility-image {
         padding: 0 1.5rem 1.5rem 0;
     }
 
-    .gpt3__possibility-content__preheading {
+    .rpaAutomations__possibility-content__preheading {
         font-size: 12px;
         line-height: 20px;
     }
     
-    .gpt3__possibility-content h1 {
+    .rpaAutomations__possibility-content h1 {
         font-size: 24px;
         line-height: 32px;
     }
     
-    .gpt3__possibility-content__text {
+    .rpaAutomations__possibility-content__text {
         font-size: 12px;
         line-height: 20px;
     }
 
-    .gpt3__possibility-content__subtext {
+    .rpaAutomations__possibility-content__subtext {
         font-size: 12px;
         line-height: 20px;
         margin-bottom: 4rem;
@@ -164,7 +164,7 @@
 }
 
 @media screen and (max-width: 380px) {
-    .gpt3__possibility-image {
+    .rpaAutomations__possibility-image {
         padding: 0 1rem 1rem 0;
         margin-bottom: 0.5rem;
     }
