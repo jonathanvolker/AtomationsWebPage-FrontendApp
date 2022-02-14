@@ -1,21 +1,16 @@
 import React from 'react';
-import {Footer, Blog, Possibility, Features, WhatrpaAutomations, Header} from './containers';
-import { Brand, Navbar} from './components';
+import { PlayerDemo, Home } from './components';
 import './App.css';
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
     return (
         <div className="App">
-            <div className="gradient__bg">
-                <Navbar/>
-                <Header />
-            </div>
-            <Brand />
-            <WhatrpaAutomations />
-            <Features />
-            <Possibility />
-            <Blog/> 
-            <Footer /> 
+           
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/player" element={<PlayerDemo />} />
+            </Routes>
         </div>
     )
 }

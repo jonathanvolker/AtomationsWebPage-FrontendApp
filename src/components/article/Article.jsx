@@ -1,5 +1,6 @@
 import React from "react";
 import "./article.css";
+import {  Link } from "react-router-dom";
 
 const Article = ({ imgUrl, date, title }) => {
   return (
@@ -12,7 +13,7 @@ const Article = ({ imgUrl, date, title }) => {
           <p>{date}</p>
           <h3>{title}</h3>
         </div>
-        <p>ver demo</p>
+         <Link to= "/player"> <p>ver demo</p> </Link> 
       </div>
     </div>
   );
