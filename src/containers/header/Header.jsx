@@ -13,6 +13,7 @@ const Header = () => {
                     Automatizando tus procesos, podés focalizarte en tu negocio.</p>
                 
             </div>
+            <br/>
 
             <div className="rpaAutomations__header-image">
                     <img src={rpa} alt="ai"/>

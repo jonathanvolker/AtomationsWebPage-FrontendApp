@@ -1,6 +1,6 @@
 import React from 'react';
 import './brand.css';
-import { sap,uipath, excel} from './imports';
+import { sap,uipath, excel, mails, navegadores } from './imports';
 
 const Brand = () => {
     return (
@@ -8,13 +8,21 @@ const Brand = () => {
             <div>
                 <img src={uipath} alt="uipath" />
             </div>
-            <br/>
+            
             <div>
                 <img src={excel} alt="excel" />
             </div>
-            <br/>
+           
             <div>
                 <img src={sap} alt="sap" />
+            </div>
+            <br/>
+            <div>
+                <img src={mails} alt="mails" />
+            </div>
+            <br/>
+            <div>
+                <img src={navegadores} alt="mails" />
             </div>
         </div>
     )

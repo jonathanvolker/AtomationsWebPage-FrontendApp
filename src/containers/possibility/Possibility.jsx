@@ -9,7 +9,7 @@ const Possibility = () => {
                 <img src={vrlady} alt="possibility" />
             </div>
             <div className="rpaAutomations__possibility-content">
-                <h1 className="gradient__text">Posibilidades mas alla de su imaginacion</h1>
+                <h1 className="gradient__text">Posibilidades mas allá de tu imaginación</h1>
                 <p className="rpaAutomations__possibility-content__text"></p>
             </div>
         </div>
