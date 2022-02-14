@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./footer.css";
 import emailjs from 'emailjs-com';
 import contactoImg from "../../assets/contacto.png";
@@ -6,12 +6,18 @@ import{ init } from '@emailjs/browser';
 init("user_0tL6wwgQ45ZoBhj4wlgg4");
 
 const Footer = () => {
+    
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'user_0tL6wwgQ45ZoBhj4wlgg4')
+    emailjs.sendForm("service_1mqtj1u", 'template_6d0jgwg', e.target, 'user_0tL6wwgQ45ZoBhj4wlgg4')
       .then((result) => {
           console.log(result.text);
+          if(result.text === 'OK'){
+            alert('Mensaje enviado correctamente')
+            window.location.reload();
+            
+          }
       }, (error) => {
           console.log(error.text);
       });

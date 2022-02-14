@@ -1,9 +1,10 @@
-import React from 'react';
+import React,{ useEffect } from 'react';
 import { PlayerDemo, Home } from './components';
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 
 const App = () => {
+   
     return (
         <div className="App">
            
