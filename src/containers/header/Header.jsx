@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import rpa from '../../assets/robotgrafico.jpg';
+import rpa from '../../assets/robotgrafico.png';
 
 const Header = () => {
     return (
