@@ -22,6 +22,9 @@ const Navbar = () => {
                 <div className="rpaAutomations__navbar-links_logo">
                     <img src={logo} alt="logo" />
                 </div>
+                <div className="rpaAutomations__navbar-title"> 
+                    <h1>RPA Automations</h1>
+                </div>
                 <div className="rpaAutomations__navbar-links_container"> 
                     <Menu />
                 </div>
