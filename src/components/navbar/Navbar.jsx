@@ -7,8 +7,8 @@ const Menu = () => (
     <>
     <p><a href="#home">Home</a></p>
     <p><a href="#wrpaAutomations">Que es RPA?</a></p>
-    <p><a href="#possibility">Posibilidades</a></p>
-    <p><a href="#blog">Demos</a></p>
+    <p><a href="#possibility">Demos</a></p>
+    <p><a href="#blog">Contacto</a></p>
     </>
 )
 

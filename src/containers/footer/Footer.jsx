@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, {useState} from "react";
 import "./footer.css";
 import emailjs from 'emailjs-com';
 import contactoImg from "../../assets/contacto.png";
@@ -6,6 +6,8 @@ import{ init } from '@emailjs/browser';
 init("user_0tL6wwgQ45ZoBhj4wlgg4");
 
 const Footer = () => {
+
+    const [ activeMens, setActivemens ] = useState(false);
     
   function sendEmail(e) {
     e.preventDefault();
@@ -35,6 +37,7 @@ const Footer = () => {
             <img src={contactoImg}alt="rpa-automations-footer-img" className="rpaAutomations__footer-img" />  
           </div>
          
+         
           <div className="rpaAutomations__footer-form"> 
             <form  onSubmit={sendEmail}>
                 <div className="rpaAutomations__footer-form-div">
@@ -53,7 +56,7 @@ const Footer = () => {
                 <label>Mensaje</label>
                 <textarea name="message" />
                 </div>
-                <input className="rpaAutomations__footer-form-button" type="submit" value="Enviar" />
+                <input className="rpaAutomations__footer-form-button" type= "submit" value="Enviar" />
             </form>
           </div>
       </div>   
