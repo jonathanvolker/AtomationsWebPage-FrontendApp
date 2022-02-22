@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 3rem 3rem 3rem;
+    padding: 0 0.7rem 0.7rem 0.7rem;
 }
 
 .rpaAutomations__possibility-image img {
@@ -24,11 +24,12 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+    padding: 1rem;
 }
 
 .rpaAutomations__possibility-content__preheading {
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 300;
     font-size: 16px;
     line-height: 30px;
     color: #71E5FF;
@@ -38,14 +39,14 @@
 .rpaAutomations__possibility-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 34px;
+    font-size: 25px;
     line-height: 45px;
     margin-bottom: 1.5rem;
 }
 
 .rpaAutomations__possibility-content__text {
     font-family: var(--font-family);
-    font-size: 16px;
+    font-size: 30px;
     line-height: 30px;
     color: var(--color-text);
     margin-bottom: 2rem;
@@ -60,10 +61,39 @@
     margin-bottom: 8rem;
 }
 
-@media screen and (max-width: 1160px) {
-    .rpaAutomations__possibility-content__preheading {
+@media screen and (max-width: 1188px) {
+    .rpaAutomations__possibility {
+        flex-direction: column;
+        align-content: flex-start;
+    }
+ 
+    
+    .rpaAutomations__possibility-content {
+        font-size: 28px;
+        line-height: 38px;
+        align-items:center;
+        justify-content:center;
+    }
+    
+    .rpaAutomations__possibility-content__text {
         font-size: 14px;
         line-height: 24px;
+    }
+    
+    .rpaAutomations__possibility-content__subtext {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .rpaAutomations__possibility {
+        flex-direction: column;
+        align-content: flex-start;
+    }
+
+    .rpaAutomations__possibility-image {
+        padding-left: 0;
     }
     
     .rpaAutomations__possibility-content h1 {
@@ -82,29 +112,6 @@
     }
 }
 
-@media screen and (max-width: 990px) {
-    .rpaAutomations__possibility-content__preheading {
-        font-size: 12px;
-        line-height: 20px;
-    }
-    
-    .rpaAutomations__possibility-content h1 {
-        font-size: 24px;
-        line-height: 32px;
-    }
-    
-    .rpaAutomations__possibility-content__text {
-        font-size: 12px;
-        line-height: 20px;
-    }
-
-    .rpaAutomations__possibility-content__subtext {
-        font-size: 12px;
-        line-height: 20px;
-        margin-bottom: 4rem;
-    }
-}
-
 @media screen and (max-width: 853px) {
     .rpaAutomations__possibility {
         flex-direction: column;
@@ -113,11 +120,6 @@
 
     .rpaAutomations__possibility-image {
         padding-left: 0;
-    }
-
-    .rpaAutomations__possibility-content__preheading {
-        font-size: 14px;
-        line-height: 24px;
     }
     
     .rpaAutomations__possibility-content h1 {

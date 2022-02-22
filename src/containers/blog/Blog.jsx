@@ -7,8 +7,8 @@ const Blog = () => {
     return (
         <div className="rpaAutomations__blog section__padding" id="blog">
             <div className="rpaAutomations__blog-heading">
-                <h1 className="gradient__text">Solicita demos de automatizaciones realizadas.</h1>
-            </div>
+                {/*  <h1 className="gradient__text">Solicita demos de automatizaciones realizadas.</h1>
+                */}</div>
           
         </div>
     )

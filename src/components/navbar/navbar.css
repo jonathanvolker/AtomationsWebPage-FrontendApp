@@ -12,7 +12,9 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
-    padding: 0.2rem;
+    border:solid 1px;
+    padding:2rem;
+    border-radius: 7px;
 }
 
 .rpaAutomations__navbar-links { 
@@ -126,7 +128,9 @@
         text-transform: uppercase;
         letter-spacing: 1px;
         font-family: 'Montserrat', sans-serif;
-        padding: 0.2rem;
+        border:solid 1px;
+        padding:2rem;
+        border-radius: 7px;
     }
 }
 
@@ -141,7 +145,9 @@
         text-transform: uppercase;
         letter-spacing: 1px;
         font-family: 'Montserrat', sans-serif;
-        padding: 0.1rem;
+        border:solid 1px;
+        padding:1.2rem;
+        border-radius: 6px;
     }
 }
 

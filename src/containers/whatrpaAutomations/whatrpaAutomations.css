@@ -27,6 +27,9 @@
 
 .rpaAutomations__whatrpaAutomations-feature {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .rpaAutomations__whatrpaAutomations-feature .rpaAutomations__features-container__feature {
@@ -47,7 +50,7 @@
 .rpaAutomations__whatrpaAutomations-heading h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 45px;
     max-width: 510px;
 }

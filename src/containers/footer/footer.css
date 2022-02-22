@@ -17,6 +17,10 @@
   height: 400px;
   margin: 0 70px;
 }
+.rpaAutomations__footer-form{
+  border-radius: 7px
+}
+
 .rpaAutomations__footer-form form{
   display: flex;
   flex-direction: column;
@@ -35,17 +39,24 @@
 .rpaAutomations__footer-form-div{
   display: flex;
   flex-direction: column;
+  border-radius: 7px;
 }
 .rpaAutomations__footer-form label{
   
   flex: 0 0 10px;
   margin: 10px;
+  border-radius: 7px;
 }
 .rpaAutomations__footer-form input{
-  
+  border-radius: 7px;
   flex: 0 0 10px;
   margin: 10px;
 }
+.rpaAutomations__footer-form textarea{
+  border-radius: 7px;
+
+}
+
 .rpaAutomations__footer-form-button{
   background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
   border-radius: 8px;

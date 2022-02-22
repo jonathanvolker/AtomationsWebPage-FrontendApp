@@ -39,6 +39,8 @@
     }
 
 @media screen and (max-width: 650px) {
+ 
+
     .rpaAutomations__brand { 
         flex-direction: column;
     }
@@ -47,8 +49,8 @@
         margin: 0.3rem;
     }
     .rpaAutomations__brand img {
-        width: 90%;
-        height: 90%;
+        width: 40%;
+        height: 40%;
     }
     
     .rpaAutomations__brand img {
@@ -78,8 +80,8 @@
         margin: 0.5rem;
     }
     .rpaAutomations__brand img {
-        max-width: 95%;
-        min-width: 95%;
+        max-width: 35%;
+        min-width: 35%;
     }
     
     .rpaAutomations__brand img {
