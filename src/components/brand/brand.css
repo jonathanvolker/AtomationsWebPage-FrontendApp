@@ -69,14 +69,15 @@
 @media screen and (max-width: 550px) {
     .rpaAutomations__brand { 
         flex-direction: column;
+        height:300px;
     }
 
     .rpaAutomations__brand div { 
         margin: 0.5rem;
     }
     .rpaAutomations__brand img {
-        max-width: 85%;
-        min-width: 85%;
+        max-width: 95%;
+        min-width: 95%;
     }
     
     .rpaAutomations__brand img {
