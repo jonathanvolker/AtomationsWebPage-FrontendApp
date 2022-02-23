@@ -16,15 +16,10 @@
     align-items: flex;
 }
 .rpaAutomations__brand img {
-    max-width: 60%;
-    min-width: 60%;
-}
-
-
-.rpaAutomations__brand img {
+    max-width: 80%;
+    min-width: 80%;
     transition: .5s ease;
-    }
-    
+}
 .rpaAutomations__brand img:hover{
     box-shadow:
     1px 1px #373737,
@@ -48,7 +43,10 @@
     .rpaAutomations__brand div { 
         margin: 0.3rem;
     }
-  
+    .rpaAutomations__brand img {
+        width: 95%;
+        height: 95%;
+    }
     
     .rpaAutomations__brand img {
         transition: .5s ease;
@@ -76,7 +74,10 @@
     .rpaAutomations__brand div { 
         margin: 0.5rem;
     }
- 
+    .rpaAutomations__brand img {
+        max-width: 85%;
+        min-width: 85%;
+    }
     
     .rpaAutomations__brand img {
         transition: .5s ease;

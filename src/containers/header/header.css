@@ -186,7 +186,7 @@
 
     .rpaAutomations__header p {
         font-size: 14px;
-        line-height: 24px;
+        line-height: 20px;
     }
 
     .rpaAutomations__header-content__input input, .rpaAutomations__header-content__input button { 
@@ -194,8 +194,8 @@
         line-height: 16px;
     }
     .rpaAutomations__header-image img {
-        width: 80%;
-        height: 80%;
+        width: 238px;
+        height: 113px;
         border-radius: 5%;
         transform-style: preserve-3d;
     }
