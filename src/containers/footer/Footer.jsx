@@ -26,19 +26,19 @@ const Footer = () => {
   }
 
   return (
-    <div className="rpaAutomations__footer section__padding" id="contact">
+    <div className="rpaAutomations__footer section__padding" >
       <div className="rpaAutomations__footer-heading">
         <h1 className="gradient__text">
         Solicitanos una demo, dejanos un mensaje y un asesor se contactará con vos.
         </h1>
       </div>
-      <div className="rpaAutomations__footer-img-form">
+      <div className="rpaAutomations__footer-img-form" >
           <div>
             <img src={contactoImg}alt="rpa-automations-footer-img" className="rpaAutomations__footer-img" />  
           </div>
          
          
-          <div className="rpaAutomations__footer-form"> 
+          <div className="rpaAutomations__footer-form"id="contact"> 
             <form  onSubmit={sendEmail}>
                 <h2>CONTACTO</h2>
                 <div className="rpaAutomations__footer-form-div">
