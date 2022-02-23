@@ -26,7 +26,7 @@ const Footer = () => {
   }
 
   return (
-    <div className="rpaAutomations__footer section__padding">
+    <div className="rpaAutomations__footer section__padding" id="contact">
       <div className="rpaAutomations__footer-heading">
         <h1 className="gradient__text">
         Solicitanos una demo, dejanos un mensaje y un asesor se contactará con vos.

@@ -13,7 +13,7 @@ const Menu = () => (
     <p><SiHomeassistant/><a href="#home"> Home</a></p>
     <p><DiCodeBadge/><a href="#wrpaAutomations"> Que es RPA?</a></p>
     <p><DiGitCompare/><a href="#possibility"> Demos</a></p>
-    <p><RiContactsBookLine/><a href="#blog"> Contacto</a></p>
+    <p><RiContactsBookLine/><a href="#contact"> Contacto</a></p>
     </>
 )
 
