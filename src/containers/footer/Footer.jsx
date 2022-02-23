@@ -29,7 +29,7 @@ const Footer = () => {
     <div className="rpaAutomations__footer section__padding">
       <div className="rpaAutomations__footer-heading">
         <h1 className="gradient__text">
-        Si querés potenciar tu transformación digital, dejanos un mensaje y un asesor se contactará de inmediato.
+        Solicitanos una demo, dejanos un mensaje y un asesor se contactará con vos.
         </h1>
       </div>
       <div className="rpaAutomations__footer-img-form">
