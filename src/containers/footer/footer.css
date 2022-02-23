@@ -217,7 +217,7 @@
   color: #000;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 820px) {
   .rpaAutomations__footer-heading h1 {
     font-size: 44px;
     line-height: 50px;
@@ -225,7 +225,7 @@
 
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
   .rpaAutomations__footer-heading h1 {
     font-size: 34px;
     line-height: 42px;
@@ -241,27 +241,25 @@
   }
   .rpaAutomations__footer-img-form{
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
   }
   .rpaAutomations__footer-img-form img{
-    width: 100px;
-    height: 100px;
-    margin: 0 40px;
+    display: none;
   }
   .rpaAutomations__footer-form form{
     display: flex;
     flex-direction: column;
     align-items: stretch;
     align-items: center;
-    background: var(--color-bg);
+    background: rgb(225, 222, 222);
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 15px;
-    color:#fff;
-    padding: 6rem;
+    color:#000;
+    padding: 4rem;
     width: 100%;
     height: 100%;
   }
@@ -271,7 +269,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .rpaAutomations__footer-heading h1 {
     font-size: 27px;
     line-height: 38px;
@@ -283,22 +281,21 @@
     align-items: center;
   }
   .rpaAutomations__footer-img-form img{
-    width: 100px;
-    height: 100px;
-    margin: 0 40px;
+    width: 140px;
+    height: 140px;
   }
   .rpaAutomations__footer-form form{
     display: flex;
     flex-direction: column;
     align-items: stretch;
     align-items: center;
-    background: var(--color-bg);
+    background:  rgb(225, 222, 222);
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 15px;
-    color:#fff;
-    padding: 6rem;
+    color:#000;
+    padding: 1rem;
     width: 100%;
     height: 100%;
   }

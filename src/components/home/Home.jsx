@@ -18,7 +18,7 @@ export default function Home() {
             <WhatrpaAutomations />
             <Feature />
             <Possibility />
-            <Blog/> 
+        
             <Footer /> 
         </>
     )
