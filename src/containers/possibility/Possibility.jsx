@@ -1,6 +1,6 @@
 import React from 'react';
 import './possibility.css';
-import vrlady from '../../assets/manual-rpa.jpg';
+import vrlady from '../../assets/manual-rpa.png';
 import { BsFillDiagram3Fill, BsLaptop} from "react-icons/bs";
 import { GiMegabot} from "react-icons/gi";
 

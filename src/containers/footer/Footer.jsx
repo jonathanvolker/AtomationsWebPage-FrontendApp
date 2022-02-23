@@ -40,6 +40,7 @@ const Footer = () => {
          
           <div className="rpaAutomations__footer-form"> 
             <form  onSubmit={sendEmail}>
+                <h2>CONTACTO</h2>
                 <div className="rpaAutomations__footer-form-div">
                 <label>Nombre</label>
                 <input type="text" name="user_name" />
@@ -50,11 +51,11 @@ const Footer = () => {
                 </div>
                 <div className="rpaAutomations__footer-form-div"> 
                 <label>Email</label>
-                <input type="email" name="user_email" />
+                <input type="email" name="user_email" required />
                 </div >
                 <div className="rpaAutomations__footer-form-div">
                 <label>Mensaje</label>
-                <textarea name="message" />
+                <textarea name="message" required />
                 </div>
                 <input className="rpaAutomations__footer-form-button" type= "submit" value="Enviar" />
             </form>
@@ -62,7 +63,7 @@ const Footer = () => {
       </div>   
       
       <div className="rpaAutomations__footer-copyright">
-        <p>© 2022 RPA Automations. derechos reservados.</p>
+        <p>© 2022 J&J RPA Solutions. derechos reservados.</p>
       </div>
     </div>
   );

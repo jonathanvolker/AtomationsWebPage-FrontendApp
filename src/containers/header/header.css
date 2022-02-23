@@ -39,7 +39,7 @@
     flex: 2;
     width: 100%;
     min-height: 50px;
-    background: var(--color-footer);
+    background: whithe;/* var(--color-footer); */
     font-family: var(--font-family);
     font-size: 20px;
     line-height: 27px;

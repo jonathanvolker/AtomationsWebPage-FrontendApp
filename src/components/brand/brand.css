@@ -48,10 +48,7 @@
     .rpaAutomations__brand div { 
         margin: 0.3rem;
     }
-    .rpaAutomations__brand img {
-        width: 40%;
-        height: 40%;
-    }
+  
     
     .rpaAutomations__brand img {
         transition: .5s ease;
@@ -79,10 +76,7 @@
     .rpaAutomations__brand div { 
         margin: 0.5rem;
     }
-    .rpaAutomations__brand img {
-        max-width: 35%;
-        min-width: 35%;
-    }
+ 
     
     .rpaAutomations__brand img {
         transition: .5s ease;

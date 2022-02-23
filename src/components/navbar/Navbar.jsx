@@ -28,7 +28,7 @@ const Navbar = () => {
                     <img src={logo} alt="logo" />
                 </div>
                 <div className="rpaAutomations__navbar-title"> 
-                    <h1>J&J RPA Automations</h1>
+                    <h1>J&J RPA Solutions</h1>
                 </div>
                 <div className="rpaAutomations__navbar-links_container"> 
                     <Menu />
